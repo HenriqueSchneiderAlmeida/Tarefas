@@ -40,10 +40,6 @@ p {
     font-weight: bold;    
 }
 
-.TopoLista{
-    list-style-type: none;
-}
-
 form{
     display: flex;
     max-width: 640px;
@@ -77,6 +73,7 @@ ul {
 ul li {
     padding: 16px 0;
     text-align: center;
+    list-style: none;
     font-size: 18px;
     width: 75%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
