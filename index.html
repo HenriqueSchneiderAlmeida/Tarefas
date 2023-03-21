@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./tarefas.css"> 
+    <title>Agenda Telefones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="./imagens/logo.jpg" alt="Tarefas">
+            <h1>Lista de Tarefas - Henrique Schneider</h1>
+        </header>    
+        <form id="form-tarefa">
+        <input type="text" id="tarefa" required placeholder="Tarefa"> 
+        
+        <button type="submit">Incluir</button>
+        </form>
+        <p>Tarefas</p>
+        <ul><li onclick=' style="Text-decoration: line-through"'></li>            
+        </ul>        
+    </div>
+    <script src="./tarefas.js"></script>
+</body>
+</html>
