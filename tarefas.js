@@ -33,7 +33,3 @@ function atualizaTabela(){
     const corpoTabela = document.querySelector('ul');
     corpoTabela.innerHTML = linhas;
 }
-
-
-//<img src="./images/foto1.jpg" alt="Pintura de um gato" />
-// $(`<img src="${enderecoNovaImagem}" />`).appendTo(novoItem);
